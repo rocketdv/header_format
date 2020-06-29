@@ -4,9 +4,12 @@ This extension allows you to easily paste and format headers from Charles or Dev
 
 ## Features
 
-Open up the command palette (`Ctrl or Cmd + Shift + P`) and type format headers, select either from selection or from clipboard
++ Open up the command palette (`Ctrl or Cmd + Shift + P`) and type format headers, select either from selection or from clipboard
++ To paste formatted use `Ctrl or Cmd + Alt + V`
++ To format selection use `Ctrl or Cmd + Alt + S`
 
-<!-- \!\[feature X\]\(images/feature-x.png\) -->
+![](https://i.gyazo.com/9b5b1fa3e62bed7c70d73bf8b8a9df5d.gif)
+![](https://i.gyazo.com/394d057f2c6bfb7221345d6fb02fd557.gif)
 
 <!-- > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow. -->
 

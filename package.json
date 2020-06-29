@@ -15,6 +15,18 @@
 	],
 	"main": "./extension.js",
 	"contributes": {
+		"keybindings": [
+			{
+				"command": "extension.format_from_clipboard",
+				"key": "ctrl+alt+v",
+				"mac": "cmd+alt+v"
+			},
+			{
+				"command": "extension.format_from_selection",
+				"key": "ctrl+alt+s",
+				"mac": "cmd+alt+s"
+			}
+		],
 		"commands": [
 			{
 				"command": "extension.format_from_clipboard",
