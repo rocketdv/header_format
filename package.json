@@ -5,9 +5,9 @@
 	"version": "0.0.1",
 	"publisher": "rocketdv",
 	"repository": {
-		"type" : "git",
-		"url" : "https://github.com/rocketdv/header_format.git"
-	  }
+		"type": "git",
+		"url": "https://github.com/rocketdv/header_format.git"
+	},
 	"engines": {
 		"vscode": "^1.46.0"
 	},
