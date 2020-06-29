@@ -10,14 +10,21 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onCommand:extension.format_from_clipboard",
+		"onCommand:extension.format_from_selection"
 	],
 	"main": "./extension.js",
 	"contributes": {
-		"commands": [{
-            "command": "extension.helloWorld",
-			"title": "Hello World"
-		}]
+		"commands": [
+			{
+				"command": "extension.format_from_clipboard",
+				"title": "Format Headers from Clipboard"
+			},
+			{
+				"command": "extension.format_from_selection",
+				"title": "Format Headers from Selection"
+			}
+		]
 	},
 	"scripts": {
 		"test": "node ./test/runTest.js"
