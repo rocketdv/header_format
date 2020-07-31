@@ -39,4 +39,3 @@ Created the commands for extension
 ### 1.0.0
 
 Initial release
-
